@@ -1,0 +1,46 @@
+/* Стили для Toolbar */
+.toolbar {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.toolbar .btn-group {
+  display: flex;
+  gap: 10px;
+}
+
+.toolbar .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.toolbar .btn i {
+  margin-right: 8px;
+}
+
+/* Иконки для кнопок */
+.toolbar .btn-block::before {
+  content: "\f023"; /* Иконка замка (Font Awesome) */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 8px;
+}
+
+.toolbar .btn-unblock::before {
+  content: "\f09c"; /* Иконка открытого замка (Font Awesome) */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 8px;
+}
+
+.toolbar .btn-delete::before {
+  content: "\f2ed"; /* Иконка корзины (Font Awesome) */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 8px;
+}

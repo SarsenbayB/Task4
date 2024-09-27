@@ -1,0 +1,78 @@
+.header {
+  background-color: #a0a3a9;
+  font-size: 1rem;
+  min-height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 01rem;
+}
+
+.logo a {
+  color: white;
+  transition-duration: 1s;
+  font-size: 25px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.name {
+  color: white;
+}
+
+.navbar-nav .nav-link a {
+  font-weight: 400;
+  position: relative;
+  color: white;
+  margin: 2px 14px;
+  font-size: 18px;
+  transition-duration: 1s;
+}
+
+.nav_btn {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav li {
+  list-style: none;
+}
+
+ul li a {
+  margin: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  color: white;
+  margin: 2px 14px;
+  font-size: 18px;
+  transition-duration: 1s;
+}
+
+.sign__btn a {
+  margin: 5px;
+  padding: 5px;
+  background-color: #f3a807;
+  color: white;
+  border-radius: 10px;
+}
+
+.log__btn a {
+  margin: 5px;
+  padding: 5px;
+  background-color: #f3a807;
+  color: white;
+  border-radius: 10px;
+}
+.exit__btn a {
+  margin: 5px;
+  padding: 5px;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+}
