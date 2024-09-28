@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-    baseURL: 'http://task4-files.vercel.app',
+    baseURL: 'https://task4-files.vercel.app',
 });
 
 instance.interceptors.request.use((config) => {
